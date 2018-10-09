@@ -1,0 +1,17 @@
+body {
+  background-color: pink;
+  background-image: url('img/background.jpg');
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  overflow: hidden;
+}
+
+img {
+  max-height: 90%;
+  max-width: 90%;
+}
