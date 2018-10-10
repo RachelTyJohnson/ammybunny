@@ -1,7 +1,3 @@
-console.clear();
-
-//it doesn't get much easier than this;)
-Draggable.create("#knob", {
-  type: "rotation",
-  throwProps: true
+new Propeller(document.getElementById('turn'), {
+  inertia: 0.99
 });
