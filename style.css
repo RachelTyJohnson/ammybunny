@@ -34,6 +34,12 @@ img {
   margin: 0 auto;
   margin-top: -100px;
   margin-bottom: 20px;
+  transform: rotate(0);
+  transition-duration: 0.2s;
+}
+
+img:hover {
+  transform: rotate(-5deg);
 }
 
 ul {
@@ -62,6 +68,7 @@ ul li+li {
 ul li:hover {
   background: #3D7FE5;
   transform: scale(1.05);
+  transform: rotate(-5deg);
 }
 
 @media (min-width:420px) {
